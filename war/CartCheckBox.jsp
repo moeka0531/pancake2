@@ -16,7 +16,7 @@
         <hr size="10">
         <h4>合計金額　 600        円</h4>
         
-        <form action="thankyou.jsp" method="post" class="Cart">
+        <form action="thankyou.jsp" method="post" class="thankyou">
             <input type="submit" value="この内容で注文する" />
         </form>
 		<a href="/logout">Logout</a>
