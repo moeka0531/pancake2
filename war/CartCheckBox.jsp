@@ -8,6 +8,9 @@
         <title>pancake Cart</title>
     </head>
     <body>
+    	<Div Align="center">
+    	<br>
+    	<br>
         <h1>カート内の商品は以下の通りです。</h1>
         <h2>品名　　　金額</h2>
         <hr size="10">
@@ -19,6 +22,8 @@
         <form action="thankyou.jsp" method="post" class="thankyou">
             <input type="submit" value="この内容で注文する" />
         </form>
+        <br>
 		<a href="/logout">Logout</a>
+		</Div>
     </body>
 </html>

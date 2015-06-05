@@ -16,10 +16,14 @@ User user = (User)session.getAttribute("user");
     <body>
     	<div style="font-weight: bold;">ユーザー：<%=user.getNickname() %></div>
     	<br>
+    	<Div Align="center">
+    	<br>
+    	<br>
         <h1>パンケーキにトッピングするものを選んでください(250円)</h1>
         <h2>ベースのパンケーキは600円です。</h2>
         <br>
         <a href ="/cart">カートの中身を確認へ</a>
         <a href="/logout">Logout</a>
+	</Div>
     </body>
 </html>

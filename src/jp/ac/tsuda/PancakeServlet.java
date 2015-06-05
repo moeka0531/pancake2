@@ -40,7 +40,7 @@ public class PancakeServlet extends HttpServlet {
         String res = "[";
         if (list != null){
             for(LinkData data:list){
-                res += "{id:" + data.getId() + ",product:" + data.getName() + ",price" +
+                res += "{id:" + data.getId() + ",product:" + data.getName() + ",price:" +
                     data.getPrice()  + "'},";
             }
         }

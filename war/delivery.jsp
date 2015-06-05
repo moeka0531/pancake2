@@ -12,6 +12,9 @@
         <title>配送設定</title>
     </head>
     <body>
+    	<Div Align="center">
+    	<br>
+    	<br>
     	<h1>配送日時を設定します</h1>
     	<h3>(1)日付を設定してください</h3>
     	<select name = "dday">
@@ -38,5 +41,6 @@
         <a href ="/deliverycheck">配送設定確認へ</a>
         <br>
         <a href="/logout">Logout</a>
+        </Div>
     </body>
 </html>
