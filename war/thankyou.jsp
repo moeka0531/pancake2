@@ -12,12 +12,17 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>thank you!</title>
     </head>
-    <body>
-        <h1>パンケーキワールド</h1><br><br>
+    <body background = "./background3.jpg" >
+    	<Div Align="center">
+      	<br>
+    	<br>
+        <h1><FONT face="Comic Sans MS">Pancake World</FONT></h1>
         <h2>ご注文ありがとうございました！</h2>
+       	<img src="./thankyou.jpg" width="500" height="400" alt=" "">
         <br><br>
         <form action="logout.do" method="post">
             <input type="submit" value="ログアウト" />
         </form>
+        </Div>
 </body>
 </html>
