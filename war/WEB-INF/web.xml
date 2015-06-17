@@ -52,6 +52,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/thankyou</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>Delivery</servlet-name>
+		<servlet-class>jp.ac.tsuda.DeliveryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Delivery</servlet-name>
+		<url-pattern>/delivery</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
     	<servlet-name>add_linkdata</servlet-name>

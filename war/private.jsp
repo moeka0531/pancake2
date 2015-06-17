@@ -13,16 +13,29 @@ User user = (User)session.getAttribute("user");
             content="text/html; charset=utf-8">
         <title>注文ページ</title>
     </head>
-    <body>
-    	<div style="font-weight: bold;">ユーザー：<%=user.getNickname() %></div>
+    <body background = "./background3.jpg">
+    	<br>
+    	<div style="font-weight: bold;">　ユーザー：<%=user.getNickname() %></div>
     	<br>
     	<Div Align="center">
     	<br>
     	<br>
-        <h1>パンケーキにトッピングするものを選んでください(250円)</h1>
-        <h2>ベースのパンケーキは600円です。</h2>
+        <h1><FONT face="Comic Sans MS">ようこそ PancakeWorkd へ！</FONT></h1>
         <br>
-        <a href ="/cart">カートの中身を確認へ</a>
+        <h2>パンケーキにトッピングするものを選んでください</h2>
+        <h2>＊ベースのパンケーキは600円です＊</h2>
+        <br>
+        <h4>250円/1トッピング</h4>
+        <input type="checkbox" name="q1" value="その1"> 桃　　
+		<input type="checkbox" name="q1" value="その2"> パイナップル　　
+		<input type="checkbox" name="q1" value="その3"> アイス　　 
+		<input type="checkbox" name="q1" value="その4"> ミルクチョコレート　　
+		<h4>300円/1トッピング</h4>
+		<input type="checkbox" name="q1" value="その5"> 生クリーム<br>
+		<br>
+		<br>
+        
+        <a href ="/cart">カートの中身を確認へ</a><br>
         <a href="/logout">Logout</a>
 	</Div>
     </body>
