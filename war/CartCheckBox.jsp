@@ -24,7 +24,7 @@
         続いて配送設定を行います、以下のボタンを押して進んでください！
         <br>
         <br>
-        <form action="delivery.jsp" method="get" class="delivery">
+        <form action="delivery.jsp" method="get" class="Cart">
             <input type="submit" value="配送設定へ" />
         </form>
         <br>

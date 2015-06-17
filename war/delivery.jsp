@@ -43,7 +43,7 @@
         <br>
         <br>
         <br>
-        <a href ="/deliverycheck">最終確認へ</a>
+        <a href ="/thankyou">注文確定</a>
         <br> 
         <a href="/logout">Logout</a>
         </Div>

@@ -34,8 +34,8 @@ User user = (User)session.getAttribute("user");
 		<input type="checkbox" name="q1" value="その5"> 生クリーム<br>
 		<br>
 		<br>
-        
-        <a href ="/cart">カートの中身を確認へ</a><br>
+        <form action="CartCheckBox.jsp" method="post" class="Cart">
+        <p><input type="submit" value="注文確認へ"></p>
         <a href="/logout">Logout</a>
 	</Div>
     </body>
