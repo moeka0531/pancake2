@@ -1,6 +1,6 @@
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,7 +12,7 @@
     	<br>
     	<br>
         <h2>カート内の商品は以下の通りです＊</h2>
-        <h2>品名　　　金額</h2>
+        <h4>品名　　　金額</h4>
         <hr size="10">
         <h4>パンケーキ　600</h4>
         <c:forEach items="${select}" var ="rec">
