@@ -15,9 +15,12 @@
         <h2>品名　　　金額</h2>
         <hr size="10">
         <h4>パンケーキ　600</h4>
+        <c:forEach items="${select}" var ="rec">
+            <h3> ${select}　250</h3>
+        </c:forEach>
 
         <hr size="10">
-        <h4>合計金額　 600        円</h4>
+        <h4>合計金額　 ${total}円</h4>
         <br>
         <br>
         <br>

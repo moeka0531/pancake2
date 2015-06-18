@@ -5,6 +5,7 @@ import java.net.URL;
 import java.util.*;
 
 import javax.jdo.*;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
 
@@ -19,9 +20,12 @@ public class AddLinkDataServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req,
             HttpServletResponse resp)
             throws ServletException, IOException {
-        resp.setContentType("text/plain");
-        resp.getWriter().println("no url...");
-    }
+    	 RequestDispatcher Dispatcher =    
+			     req.getRequestDispatcher("/add.html");
+			    Dispatcher.forward(req, resp);
+
+		  }
+    
  
     @Override
     protected void doPost(HttpServletRequest req,
@@ -39,6 +43,6 @@ public class AddLinkDataServlet extends HttpServlet {
         } finally {
             manager.close();
         }
-        resp.sendRedirect("/index.html");
+        resp.sendRedirect("/private.jsp");
     }
 }
