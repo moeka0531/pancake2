@@ -20,9 +20,7 @@
         <h2>ご注文ありがとうございました！</h2>
        	<img src="./thankyou.jpg" width="500" height="400" alt=" "">
         <br><br>
-        <form action="logout.do" method="post">
-            <input type="submit" value="ログアウト" />
-        </form>
+    	<a href="/logout">Logout</a>
         </Div>
 </body>
 </html>
